@@ -1,0 +1,91 @@
+.container{
+    display: block;
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    /* margin-top: 200px; */
+}
+
+body{
+    background-color: pink;
+    /* color: aliceblue; */
+}
+
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 200px;
+    
+}
+.login-h1{  
+    text-align: center;
+    margin: 200px 200px;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 80px 0;
+   
+}
+span{
+    color: red;
+    text-align: center;
+    /* font-size: 40px; */
+    font-weight: 800;
+}
+.login-h1 img{
+    width: 100px;
+    border: 2px solid red;
+   
+    border-radius: 50%;
+}
+.login-h1 img:hover{
+    border: 2px solid black;
+    /* transition: 0.9s; */
+    transition: transform 0.9s;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.login-h2{  
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.login-h2:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.input-login{
+    margin: 100px 0;
+}
+.input-box{
+    margin: 15px 0;
+    
+}
+.click a {
+    text-decoration: none;
+
+}
+
+.btn{
+    font-size: 16px;
+    margin:20px 50px;
+    color: aqua;
+    letter-spacing: 2px;
+    background-color: red;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.main-box{
+    margin: 120px 140px;
+}
